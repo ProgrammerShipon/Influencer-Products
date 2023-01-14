@@ -317,3 +317,58 @@ footer .social-icons a i {
   font-size: 1.3em;
   color: white;
 }
+
+
+
+
+
+/* Mobile Responsive  */
+@media screen and (min-width: 375px) and (max-width: 667px) {
+  .container {
+    width: 90%;
+  }
+
+  .header-banner {
+    flex-direction: column-reverse;
+  }
+
+  .header-banner img {
+    width: 90%;
+  }
+
+  .banner-description {
+    text-align: center;
+  }
+
+  .banner-description h1 {
+    font-size: 28px;
+  }
+
+  .banner-description p {
+    font-size: 15px;
+  }
+
+  .company-container ul {
+    gap: 32px;
+  }
+
+  .company-container .container {
+    border: 1px solid transparent;
+  }
+
+  .popular-collections {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .featured-area .container {
+    flex-direction: column-reverse;
+    padding: 50px 0;
+    margin: 50px auto;
+    gap: 30px;
+    text-align: center;
+  }
+}
+
+.hide {
+  display: none;
+}
